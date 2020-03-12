@@ -1,6 +1,6 @@
 * # 경험많은 신입 프로그래머
 
-  <img src="포트폴리오_ver1.1.4.assets/ED840C73-C388-4CB5-A716-700B605FDF76.jpeg" alt="ED840C73-C388-4CB5-A716-700B605FDF76" style="zoom:30%;"/> 
+  <img src="README.assets/ED840C73-C388-4CB5-A716-700B605FDF76.jpeg" alt="ED840C73-C388-4CB5-A716-700B605FDF76" style="zoom:30%;"/> 
 
   * 이름: 김기현
 
@@ -163,7 +163,7 @@
   * 개발분야: REST API Server 개발, 추천시스템 개발 그리고 iOS모바일 어플리케이션 개발
   * 제가 담당한 기술 스택
 
-  ![image-20190917002806532](/Users/gihyunkim/Library/Application Support/typora-user-images/image-20190917002806532.png)
+  ![image-20190917002806532](README.assets/image-20190917002806532.png)
 
   #### 2. 프로젝트 개요
 
@@ -199,125 +199,123 @@
       snapkit은 **유지보수가 용이하고 segue를 사용하지않기 때문에 직관적으로 데이터를 전달할 수 있다는 장점**이 있습니다.
 
       <center>[어플리케이션 스크린샷]</center>
-
-      ![image-20190916210747901](포트폴리오_ver1.1.4.assets/image-20190916210747901.png)
-
-  * Pandas를 이용한 데이터 전처리, 그리고 Content Based Filtering Algorithm 구현
-
-    * 왜 Content Based Filtering 인가?
-
-      Content Based filtering은 현재 content와 유사한 항목을 보여주는 추천알고리즘 입니다.
+![image-20190916210747901](README.assets/image-20190916210747901.png)
+  
+* Pandas를 이용한 데이터 전처리, 그리고 Content Based Filtering Algorithm 구현
+  
+  * 왜 Content Based Filtering 인가?
+  
+    Content Based filtering은 현재 content와 유사한 항목을 보여주는 추천알고리즘 입니다.
       이 프로젝트에서는 사용자가 보고있는 content에 대한 유사한 항목들을 보여주는 형태로 표현됩니다.
       사용자가 content를 하나만 보게 하는 것이 아닌 여러 content를 볼 수 있음으로 인해 저희 어플리케이션에 머무르는 시간이 많도록 그리고 지루하지 않게 하도록 위합니다.
-
-    * 구현 상세 설명
-
-      사용자의 feature에 따른 여행지, 음식점을 추천해줘야 합니다.
+  
+  * 구현 상세 설명
+  
+    사용자의 feature에 따른 여행지, 음식점을 추천해줘야 합니다.
       그 중에서도 각 여행지, 음식점 등 각 feature들에 대한 TF와 IDF의 곱을 이용해서 만든 Content Based Filtering을 구현 했습니다.
-
-      <center>[CB 추천을 위한 코사인 유사도 분석]</center>
-
-      ![image-20190916204822859](포트폴리오_ver1.1.4.assets/image-20190916204822859.png)
+  
+    <center>[CB 추천을 위한 코사인 유사도 분석]</center>
+  ![image-20190916204822859](README.assets/image-20190916204822859.png)
 
   먼저 content에 대한 한글 형태소를 분석한 뒤 uni, bi, tri gram의 출현빈도를 추출해서 TF를 만들고 이를 이용해 TF-IDF 여행지 행렬을 생성한 뒤 코사인유사도 함수를 이용해 각 content마다 연관성을 행렬로 표현했습니다.
-      그리고 이 행렬을 이용해 각 content마다 가장 유사도가 높은 content 순으로 순위를 매겨 실제 어플리케이션에 표출하는 것을 구현했습니다.
+    그리고 이 행렬을 이용해 각 content마다 가장 유사도가 높은 content 순으로 순위를 매겨 실제 어플리케이션에 표출하는 것을 구현했습니다.
       
-
+  
   <center>[CB Filtering의 구현]</center>
-
-  ![image-20190916205250749](포트폴리오_ver1.1.4.assets/image-20190916205250749.png)
-
+![image-20190916205250749](README.assets/image-20190916205250749.png)
   
 
-  ## #TagMusic(학교 프로젝트)
+  
+## #TagMusic(학교 프로젝트)
 
-  #### 1. 개발환경 및 역할
+#### 1. 개발환경 및 역할
 
-  - 참여인원: 2명
+- 참여인원: 2명
+  
   - 개발분야:  Android 모바일 어플리케이션 개발
-  - 제가 담당한 기술 스택
+- 제가 담당한 기술 스택
+  
+  ![image-20190916222439030](README.assets/image-20190916222439030.png)
+  
+#### 2. 프로젝트 개요
 
-  ![image-20190916222439030](포트폴리오_ver1.1.4.assets/image-20190916222439030.png)
+Tag를 이용해 어플리케이션내에 있는 음악을 관리하는 음악 어플리케이션 입니다.
 
-  #### 2. 프로젝트 개요
+기존 음악 어플리케이션들의 재생목록은 사용자가 Directory를 생성 후 음악을 집어 넣는 형식입니다.
 
-  Tag를 이용해 어플리케이션내에 있는 음악을 관리하는 음악 어플리케이션 입니다.
+\#TagMusic은 음악에 Tag를 달아두어서 사용자가 보다 탄력적으로 재생목록을 관리할 수 있게 해주는 어플리케이션입니다.
 
-  기존 음악 어플리케이션들의 재생목록은 사용자가 Directory를 생성 후 음악을 집어 넣는 형식입니다.
-
-  \#TagMusic은 음악에 Tag를 달아두어서 사용자가 보다 탄력적으로 재생목록을 관리할 수 있게 해주는 어플리케이션입니다.
-
-  * 기존 문제점
-
-    사용자는 재생목록을 만들 때 가술별, 장르별, 내가 좋아하는 노래별 등으로 만듭니다.
-
-    따라서 재생목록을 만들 때 하나의 노래에 여러가지의 재생목록을 만들어야 자신만의 재생목록을 꾸밀 수 있습니다.
-
-    예를 들면 "볼빨간사춘기 - 싸운날"노래는 볼빨간사춘기, k-pop, 발라드 3가지의 재생목록을 모두 만들어야 합니다.
-
-    또한 재생목록을 수정하려면 직접 재생목록에 있는 음악을 하나하나 수정을 해줘야합니다. 이러한 번거로움을 없애고자 생각해낸게 \#TagMusic 입니다.
-
-    ![image-20190916223848053](포트폴리오_ver1.1.4.assets/image-20190916223848053.png)
-
-    ![image-20190916223906762](포트폴리오_ver1.1.4.assets/image-20190916223906762.png)
-
-    ![image-20190916223922812](포트폴리오_ver1.1.4.assets/image-20190916223922812.png)
-
-    ![image-20190916223946270](포트폴리오_ver1.1.4.assets/image-20190916223946270.png)
-
-    ![image-20190916224036995](포트폴리오_ver1.1.4.assets/image-20190916224036995.png)
-
+* 기존 문제점
+  
+  사용자는 재생목록을 만들 때 가술별, 장르별, 내가 좋아하는 노래별 등으로 만듭니다.
+  
+  따라서 재생목록을 만들 때 하나의 노래에 여러가지의 재생목록을 만들어야 자신만의 재생목록을 꾸밀 수 있습니다.
+  
+  예를 들면 "볼빨간사춘기 - 싸운날"노래는 볼빨간사춘기, k-pop, 발라드 3가지의 재생목록을 모두 만들어야 합니다.
+  
+  또한 재생목록을 수정하려면 직접 재생목록에 있는 음악을 하나하나 수정을 해줘야합니다. 이러한 번거로움을 없애고자 생각해낸게 \#TagMusic 입니다.
+  
+  ![image-20190916223848053](README.assets/image-20190916223848053.png)
+  
+  ![image-20190916223906762](README.assets/image-20190916223906762.png)
+  
+  ![image-20190916223922812](README.assets/image-20190916223922812.png)
+  
+  ![image-20190916223946270](README.assets/image-20190916223946270.png)
+  
+  ![image-20190916224036995](README.assets/image-20190916224036995.png)
   
 
   
 
-  * 해결
+  
+* 해결
+  
+  재생목록의 하위에 음악이 있는 것이 아닌 음악(볼빨간사춘기 - 싸운날)에 #볼빨사 #k-pop #발라드 라는 3개의 tag를 달고 "adele = hello"라는 노래에 #adele #pop #favorite라는 3개의 tag를 달았을 때 #발라드 tag를 재생시키면 #발라드가 tagging된 "볼빨간사춘기 - 싸운날", "adele - hello"가 재생되는 형식입니다.
+  
+  또한 노래를 듣다가 볼빨간사춘기 노래만을 듣고 싶다면 #발빨사 tag만 남겨두면 재생목록이 다시 update되고 특정 가수, 장르의 노래를 들을 수 있습니다.
+  
+  즉, 재생목록을 단어하나에만 국한 시키지않고 속성을 붙여주는 것입니다. 속성에 음악파일이 들어있는 것이 아니라 음악에 속성을 붙여줌으로서 원하는 음악을 탄력적으로 들을 수 있을 것입니다.
+  
+  ![image-20190916224803628](README.assets/image-20190916224803628.png)
+  
+  ![image-20190916224116605](README.assets/image-20190916224116605.png)
+  
+#### 3. 프로젝트를 통해 얻은 점
 
-    재생목록의 하위에 음악이 있는 것이 아닌 음악(볼빨간사춘기 - 싸운날)에 #볼빨사 #k-pop #발라드 라는 3개의 tag를 달고 "adele = hello"라는 노래에 #adele #pop #favorite라는 3개의 tag를 달았을 때 #발라드 tag를 재생시키면 #발라드가 tagging된 "볼빨간사춘기 - 싸운날", "adele - hello"가 재생되는 형식입니다.
-
-    또한 노래를 듣다가 볼빨간사춘기 노래만을 듣고 싶다면 #발빨사 tag만 남겨두면 재생목록이 다시 update되고 특정 가수, 장르의 노래를 들을 수 있습니다.
-
-    즉, 재생목록을 단어하나에만 국한 시키지않고 속성을 붙여주는 것입니다. 속성에 음악파일이 들어있는 것이 아니라 음악에 속성을 붙여줌으로서 원하는 음악을 탄력적으로 들을 수 있을 것입니다.
-
-    ![image-20190916224803628](포트폴리오_ver1.1.4.assets/image-20190916224803628.png)
-
-    ![image-20190916224116605](포트폴리오_ver1.1.4.assets/image-20190916224116605.png)
-
-  #### 3. 프로젝트를 통해 얻은 점
-
-  * Java를 기반으로한 Android 모바일 어플리케이션 개발의 이해
+* Java를 기반으로한 Android 모바일 어플리케이션 개발의 이해
+  
   * Android의 ORM을 통한 SQLite 핸들링 방법의 이해
-  * Android service에서 동작하는 기능 개발의 이해
+* Android service에서 동작하는 기능 개발의 이해
   * Android View 구조의 이해
   * **모바일프로그래밍 과목 A+ 취득**
-
+  
   #### 4. 프로젝트에 기여한 점
-
-  * Java를 기반으로한 Android모바일 어플리케이션 개발
-
-    * PagerView를 이용한 UI 제작
-
-      각 View마다 이동이 자유롭게 하기 위해서 PagerView를 이용했습니다. 스와이프만으로도 각 카테고리의 화면을 손쉽게 전환 가능하도록 했습니다.
-
-      ![image-20190916232312339](포트폴리오_ver1.1.4.assets/image-20190916232312339.png)
-
-      PagerView는 기본적으로 Fragment로 되어있으며 어플리케이션을 구현하기 위해서는 Fragment간에 data이동이 필요합니다.
-
-    * TotalMusicManager를 통한 데이터 관리
-
-      따라서 모든 정보를 관리하는 TotalMusicManager(이하 TMM)을 만들었으며, Singleton 디자인 패턴을 따릅니다. TMM은 SQLite(DB), storage내 음악파일, UI에 업데이트될 정보를 관리합니다.
-
-      <center>[Class구조]</center>
-
-      ![image-20190916233428518](포트폴리오_ver1.1.4.assets/image-20190916233428518.png)
+  
+* Java를 기반으로한 Android모바일 어플리케이션 개발
+  
+  * PagerView를 이용한 UI 제작
+  
+    각 View마다 이동이 자유롭게 하기 위해서 PagerView를 이용했습니다. 스와이프만으로도 각 카테고리의 화면을 손쉽게 전환 가능하도록 했습니다.
+  
+    ![image-20190916232312339](README.assets/image-20190916232312339.png)
+  
+    PagerView는 기본적으로 Fragment로 되어있으며 어플리케이션을 구현하기 위해서는 Fragment간에 data이동이 필요합니다.
+  
+  * TotalMusicManager를 통한 데이터 관리
+  
+    따라서 모든 정보를 관리하는 TotalMusicManager(이하 TMM)을 만들었으며, Singleton 디자인 패턴을 따릅니다. TMM은 SQLite(DB), storage내 음악파일, UI에 업데이트될 정보를 관리합니다.
+  
+    <center>[Class구조]</center>
+  ![image-20190916233428518](README.assets/image-20190916233428518.png)
 
   MainAcitivity에서 PagerView를 호출하기 위해 BaseAdaper형태의 pagerAdapder class를 만들었으며 각 카테고리들(music, tag, play)들을 누를 때 마다 그에 따른 fragment가 호출되며, 스와이프로도 화면(frament)이 전환되도록 구현했습니다.
-      
-
-  ```java
+  
+  
+```java
       @Override
       public android.support.v4.app.Fragment getItem(int position)
-      {
+    {
         switch(position){
           case 0:
             throw_args.putSerializable("TotalMusicManager", tmm);
@@ -335,7 +333,7 @@
             return null;
         }
       }
-  ```
+```
 
   각 fragment는 서로 data를 공유하기 위해 tmm을 MainActivity에서 생성했으며, pagerAdapter에서 각 fragment를 호출할 때 마다 putSerializable()메소드를 이용해 tmm을 넘겨줍니다.
 
@@ -356,11 +354,11 @@
   #### 1. 개발환경 및 역할
 
   - 참여인원: 3명
-  - 개발분야: REST API Server 개발, Deeplearning, opencv 그리고 Android모바일 어플리케이션 개발
+- 개발분야: REST API Server 개발, Deeplearning, opencv 그리고 Android모바일 어플리케이션 개발
   - 제가 담당한 기술 스택
 
-  ![image-20190917003537303](포트폴리오_ver1.1.4.assets/image-20190917003537303.png)
-
+  ![image-20190917003537303](README.assets/image-20190917003537303.png)
+  
   
 
   #### 2. 프로젝트 개요
@@ -369,7 +367,7 @@
 
   집안 내부의 cctv를 통해 들어오는 사람을 인식하여 허가된 사람인지 구분 후 모바일 어플리케이션으로 notification을 전달합니다.
 
-  **현재 학교 졸업작품 과목으로 진행중인 프로젝트입니다.**
+  **현재 학교 졸업작품 과목으로 진행된 프로젝트입니다.**
 
   https://www.youtube.com/watch?v=PKa12XJIs78&feature=youtu.be
 
@@ -389,22 +387,21 @@
   * Android의 OkHttp를 통한 HTTP 통신의 이해
   * Android에서 notification의 핸들링
   * Python에서 HTTP 통신의 이해
-
+  
   #### 4. 프로젝트에 기여한 점
-
+  
   <center>[System Architecture]</center>
+  ![image-20190917011743472](README.assets/image-20190917011743472.png)
+  
+- REST API Server 구축
 
-  ![image-20190917011743472](포트폴리오_ver1.1.4.assets/image-20190917011743472.png)
+  * SW 구조
 
-  * REST API Server 구축
-
-    * SW 구조
-
-      * app: 서버기능
+    * app: 서버기능
         * api: api 로직을 담당
-          * index.js: request를 처리하기 위해 미들웨어들을 모아둔 곳
+        * index.js: request를 처리하기 위해 미들웨어들을 모아둔 곳
           * controller.js: 미들웨어에서 받은 내용을 처리해주는 곳
-        * config: 서버가 구동하기 위한 환경변수 정의(상수)
+      * config: 서버가 구동하기 위한 환경변수 정의(상수)
         * models: 데이터베이스 모델링
       * bin: 서버 구동을 위한 코드
         * www.js: 서버구동
@@ -414,27 +411,27 @@
 
       * 테스트때문에 서버가 실행되는 모드를 몇개 정의해야합니다. 테스트를 할 때 DB를 연결하게되면 DB 테스트에서 사용한 데이터들이 쌓이게 됩니다. 따라서 테스트용 데이터베이스가 따로 있어야 하는데 이것을 위해 서버 환경을 분리할 것입니다.
 
-      * 저희는 세가지 모드를 사용했습니다.
+    * 저희는 세가지 모드를 사용했습니다.
 
-        -development
+      -development
 
-        -test
+      -test
 
-        -production
+      -production
 
-        "development"는 개발모드입니다. 평소 개발할 때 쓰이는 환경입니다.
+      "development"는 개발모드입니다. 평소 개발할 때 쓰이는 환경입니다.
 
-        "test"는 test환경입니다. 코드가 제대로 돌아가고 있는지 mocha를 통해 TDD용으로 만들어뒀습니다.
+      "test"는 test환경입니다. 코드가 제대로 돌아가고 있는지 mocha를 통해 TDD용으로 만들어뒀습니다.
 
-        "production"은 운영모드 입니다. 실제로 코드가 서버로 배포되어 동작하는 환경을 의미합니다.
+      "production"은 운영모드 입니다. 실제로 코드가 서버로 배포되어 동작하는 환경을 의미합니다.
 
-        이러한 환경정보는 /app/config/environment.js 에 구현했습니다.
+      이러한 환경정보는 /app/config/environment.js 에 구현했습니다.
 
-        ```javascript
+      ```javascript
         const environment = {
-          development: {
+        development: {
             mysql: {
-              username: 'root',
+            username: 'root',
               password: '',
               database: 'now_u_see_me'
             }
@@ -457,31 +454,31 @@
         
         const nodeEnv = process.env.NODE_ENV || 'development';
         module.exports = environment[nodeEnv];
-        ```
+      ```
 
         environments라는 변수를 두어 각 환경 이름에 해당하는 키를 만들었습니다. 그리고 nodeEnv라는 상수에 노드환경변수 값을 할당했습니다. 노드를 실행하기 전에 "Node_ENV = test"라고 실행하면 이값에 "test"라는 문자열이 들어갑니다. 만약 아무것도 설정하지 않았으면 "development"문자열이 들어가게 될 것입니다.
 
     * Mocha를 이용해 TDD구현
 
-      describe()를 이용해 테스트 suite를 만들고, it()을 이용해 test를 실행하도록 했습니다.
+    describe()를 이용해 테스트 suite를 만들고, it()을 이용해 test를 실행하도록 했습니다.
 
-      test검증은 assert를 쓸 수도 있었지만 node.js 공식 홈페이지에서 다른 모듈을 사용하는 것을 권장하고 있기에 **should 모듈을 이용해 서술식 검증 코드를 만들었습니다.**
+    test검증은 assert를 쓸 수도 있었지만 node.js 공식 홈페이지에서 다른 모듈을 사용하는 것을 권장하고 있기에 **should 모듈을 이용해 서술식 검증 코드를 만들었습니다.**
 
-      마지막으로 **supertest 모듈을 이용해 express 프레임 워크 위에서 api 테스트를 가능**하게 해줬습니다.
+    마지막으로 **supertest 모듈을 이용해 express 프레임 워크 위에서 api 테스트를 가능**하게 해줬습니다.
 
-    * Sequelize를 이용한 ORM 사용
+  * Sequelize를 이용한 ORM 사용
 
-    * multer를 이용한 local storage 핸들링
+  * multer를 이용한 local storage 핸들링
 
-  * FCM을 이용해 notification 구현
+- FCM을 이용해 notification 구현
 
-    * FCM 사용 이유
+  * FCM 사용 이유
 
-      어플리케이션의 알림기능을 구현하기 위해선 현재 서버에서 클라이언트로 알림을 전달할 방법이 있어야 합니다.
+    어플리케이션의 알림기능을 구현하기 위해선 현재 서버에서 클라이언트로 알림을 전달할 방법이 있어야 합니다.
 
-      그러나 본연의 서버의 기능을 수행하면서 또 하나의 복잡한 알림기능까지 포함하면 서버에 과부하가 걸린다고 판단되었습니다. Google에서 무료로 제공해주는 Firebase Cloud Messaging을 이용하기로 했습니다.
+    그러나 본연의 서버의 기능을 수행하면서 또 하나의 복잡한 알림기능까지 포함하면 서버에 과부하가 걸린다고 판단되었습니다. Google에서 무료로 제공해주는 Firebase Cloud Messaging을 이용하기로 했습니다.
 
-      
+    
 
 
   ## Deeper Deeper
@@ -492,7 +489,7 @@
   - 개발분야: Unity3D Game
   - 제가 담당한 기술 스택
 
-  ![image-20190917112950617](포트폴리오_ver1.1.4.assets/image-20190917112950617.png)
+  ![image-20190917112950617](README.assets/image-20190917112950617.png)
 
   #### 2. 프로젝트 개요
 
@@ -516,7 +513,7 @@
   * 어항내 물고기들의 크기가 제각각이어서 depth에 따라서 큰 물고기 뒤에 작은 물고기가 가려져 카메라에 비춰지지 않는 경우가 있었습니다. 또한 물고기 크기가 sort되어 있지 않아서 다시 한번 해줘야하는 비효율성을 야기했습니다.
     * 물고기들을 prefab으로 만들어서 각 물고기들의 prefab정보를 가져와서 이미지정보를 직접 추출한 후 크기를 이용해 정렬을 했습니다. 물고기가 큰 순서대로 맨뒤에서 부터 배치되었고, 물고기 크기는 sort되어 있기 때문에 따로 추가적인 연산을 하지 않게 되었습니다.
 
-  ![image-20190917113721359](포트폴리오_ver1.1.4.assets/image-20190917113721359.png)
+  ![image-20190917113721359](README.assets/image-20190917113721359.png)
 
   ## KidsLay: 스쿨존용 IoT기반 차량과속경보 시스템
 
@@ -526,14 +523,13 @@
   - 개발분야: Embedded System, Linux application
   - 제가 담당한 기술 스택
 
-  ![image-20190917114212612](포트폴리오_ver1.1.4.assets/image-20190917114212612.png)
+  ![image-20190917114212612](README.assets/image-20190917114212612.png)
 
   #### 2. 프로젝트 개요
 
   2016.06 ~ 2017.08 기간동안 **(주)퀀텀게이트에서 산업자원통상부 지역산업 창의융합 R&D과제로 참여했던 프로젝트** 입니다.
 
   <center>**회사 보안상의 이유로 자세한 내용은 생략되어 있습니다.**</center>
-
   * 운행 속도에 따라 달라지는 레이저 동영상을 도로위에 디스플레이 한다.
   * 디스플레이된 레이저 영상을 통해 아이를 칠 수 있다는 경각심과 죄책감을 불러일으킨다.
   * 운전자 스스로 속도를 줄일 수 있도록 동기부여 하는 제품이다.
