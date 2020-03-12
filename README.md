@@ -1,161 +1,296 @@
-* # 경험많은 신입 프로그래머
+# 호김심 많은 탐험가, 경험많은 신입
 
-  <img src="README.assets/ED840C73-C388-4CB5-A716-700B605FDF76.jpeg" alt="ED840C73-C388-4CB5-A716-700B605FDF76" style="zoom:30%;"/> 
+<img src="README.assets/image-20191208031740167.png" alt="image-20191208031740167" style="zoom:33%;" /> 
 
-  * 이름: 김기현
+* 이름: 김기현
 
-  * 생년월일: 1993.12.05
+* 생년월일: 1993.12.05
 
-  * 연락처: 010-5046-9622
+* :telephone_receiver:: 010-5046-9622
 
-  * 이메일: rlgus1205@naver.com
+* :email:: kimkihyun1205@gamil.com
 
-  * Github: https://github.com/kiryun
+* :notebook:: https://velog.io/@wimes
 
-    
-
-  ### 간략한 소개
-
-  중학교 3학년때 부터 프로그래밍을 시작해서 지금까지 여러 분야에 대한 경험을 해본 프로그래머 입니다.
-  게임, IoT, iOS/Android, REST API Server 프로젝트를 맡아서 한 경험이 있습니다.
-  다양한 프로젝트를 해본덕분에 다른 분야에서 응용해서 사용할 수 있었습니다.
-  새로운 기술을 배우는 것에 호기심과 열정을 가지고 있고 배우는데 있어서 겁먹지 않고 유연하게 배울 수 있는 자세가 준비되어있습니다.
+* <img src="README.assets/image-20191211014711788.png" alt="image-20191211014711788" style="zoom:10%;" />: https://github.com/kiryun
 
   
 
-  ### 경험해본 기술스택
+### 간략한 소개
 
-  * iOS
+중학교 3학년때 부터 프로그래밍을 시작해서 지금까지 여러 분야에 대한 경험을 해본 프로그래머 입니다.
+게임, IoT, iOS/Android, REST API Server분야의 프로젝트를 맡아서 한 경험이 있습니다.
+다양한 프로젝트를 해본덕분에 다른 분야에서 응용해서 사용할 수 있었습니다.
+새로운 기술을 배우는 것에 호기심과 열정을 가지고 있고 배우는데 있어서 겁먹지 않고 유연하게 배울 수 있는 자세가 준비되어있습니다.
 
-    Swift4
 
-  * Android
 
-    Java
+### 경험해본 기술스택
 
-  * REST API Server
+* iOS
 
-    Node.js
+  Swift4
 
-  * DataBase
+* Android
 
-    MySQL
+  Java
 
-  * Data Science
+* REST API Server
 
-    Python, pandas
+  Node.js
 
-  * IoT
+* DataBase
 
-    Embedded System Programming, Memory Tuning, C, C++, NASM
+  MySQL
 
-  * Game
+* Data Science
 
-    Unity3D, Direct3D 9
+  Python, pandas
 
-  * ETC.
+* IoT
 
-    Slack, Redmine
+  Embedded System Programming, Memory Tuning, C, C++, NASM
 
-    
+* Game
 
-  ### 경력
+  Unity3D, Direct3D 9
 
-  * **(주)퀀텀게이트(2016.06 ~ 2017.08)**
-    * Embedded System Engineer
-      * 스쿨존용 IoT기반 차량과속경보 시스템 프로젝트, HW 부품 연결을 위한 메인 Linux SW개발과 Radar 프로토콜을 분석했습니다.
-      * 결과: 지역특화산업육성(R&D) 기술 개발 사업 통과
-  * **(주)퀀텀게이트(2018.11 ~ 2019.02)**
-    * Embedded System Engineer
-      * One M2M 기반 IoT 통합 센서 통신모듈 개발
+* ETC.
+
+  Slack, Redmine
 
   
 
-  ### 대내외활동
+### 경력
 
-  * **전자공학과 학술동아리 Return 설립(2015.03 ~ )**
+* **(주)퀀텀게이트(2016.06 ~ 2017.08)**
+  * Embedded System Engineer
+    * 스쿨존용 IoT기반 차량과속경보 시스템 프로젝트, HW 부품 연결을 위한 메인 Linux SW개발과 Radar 프로토콜을 분석했습니다.
+    * 결과: 지역특화산업육성(R&D) 기술 개발 사업 통과
+* **(주)퀀텀게이트(2018.11 ~ 2019.02)**
+  * Embedded System Engineer
+    * One M2M 기반 IoT 통합 센서 통신모듈 개발
 
-    같이 프로그래밍 study그룹을 진행하던 같은과 친구들과 8명이서 동아리를 만들고 공부했습니다.
 
-    같이 대외활동 및 공모전에 참가하며 실제 개발하는 법을 배우려고 했습니다.
 
-  * **고급프로그래밍언어 수업 실습조교(2018.03 ~ 2018.07)**
+### 대내외활동
 
-    Java 프로그래밍 언어를 배울 수 있는 고급프로그래밍언어과목의 실습조교를 했습니다.
+* **전자공학과 학술동아리 Return 설립(2015.03 ~ )**
 
-  * **교내 Peer to Tutoring 프로그램을 통한 Java Study 멘토(2018.03 ~ 2018.07)**
+  같이 프로그래밍 study그룹을 진행하던 같은과 친구들과 8명이서 동아리를 만들고 공부했습니다.
 
-    고급프로그래밍언어 과목을 수강하지 못하거나 좀 더 심화된 내용을 듣고 싶은 학생들을 위해 교내에서 진행중인 프로그램인 Peer to Tutoring을 통해 강의실을 빌리고 체계적으로 수업계획서를 짜고 멘토로 스터디를 진행했습니다.
+  같이 대외활동 및 공모전에 참가하며 실제 개발하는 법을 배우려고 했습니다.
 
-  * **SW Maestro 9기 연수생(2018.06 ~ 2018.11)**
+* **고급프로그래밍언어 수업 실습조교(2018.03 ~ 2018.07)**
 
-    과학기술정보통신부에서 주관하는 소프트웨어 인재양성 프로그램에 참여했습니다. 본과정 100명의 연수생과 함께 프로젝트를 진행했습니다. 3명이 한팀으로 외국인들을 위한 여행지 추천시스템을 개발했습니다.
+  Java 프로그래밍 언어를 배울 수 있는 고급프로그래밍언어과목의 실습조교를 했습니다.
 
-  * **메이커스페이스 외부강사(2019.07 ~ 2019.07)**
+* **교내 Peer to Tutoring 프로그램을 통한 Java Study 멘토(2018.03 ~ 2018.07)**
 
-    초등학생, 중학생들을 대상으로 블록코딩 강사로 활동했습니다. 강의를 준비하면서 3D프린터 사용방법과 PCB회로설계 후 발주까지 내봤습니다. 아이들에게는 블로코딩, 아두이노 코딩을을 가르쳤습니다.
+  고급프로그래밍언어 과목을 수강하지 못하거나 좀 더 심화된 내용을 듣고 싶은 학생들을 위해 교내에서 진행중인 프로그램인 Peer to Tutoring을 통해 강의실을 빌리고 체계적으로 수업계획서를 짜고 멘토로 스터디를 진행했습니다.
+
+* **SW Maestro 9기 연수생(2018.06 ~ 2018.11)**
+
+  과학기술정보통신부에서 주관하는 소프트웨어 인재양성 프로그램에 참여했습니다. 본과정 100명의 연수생과 함께 프로젝트를 진행했습니다. 3명이 한팀으로 외국인들을 위한 여행지 추천시스템을 개발했습니다.
+
+* **메이커스페이스 외부강사(2019.07 ~ 2019.07)**
+
+  초등학생, 중학생들을 대상으로 블록코딩 강사로 활동했습니다. 강의를 준비하면서 3D프린터 사용방법과 PCB회로설계 후 발주까지 내봤습니다. 아이들에게는 블로코딩, 아두이노 코딩을을 가르쳤습니다.
+
+
+
+
+
+### 프로젝트 및 담당분야
+
+* **졸업작품: Deep Learning을 활용한 사용자 얼굴인식 및 침입자 알림 시스템 개발(2019.03 ~ )**
+  * Node.js를 이용한 REST API Server 구현(https://github.com/kiryun/now_u_see_me_server)
+  * Android 어플리케이션 개발(https://github.com/kiryun/now_u_see_me_mobile)
+  * RaspberryPi를 이용해 WEB CAM 개발(https://github.com/kiryun/now_u_see_me_cam)
+* **MINTOS 64bit(2019.06 ~ )**
+  * NASM을 이용한 BootLoader 제작
+  * C언어를 이용해 Kernel 32bit, Kernel 64bit 제작
+  * https://github.com/kiryun/os
+* **(주)퀀텀게이트: One M2M 기반 IoT 통합 센서 통신모듈 개발(2018.11 ~ 2019.02)**
+  * SAMD21G chip based 통신모듈개발외주
+  * RS-485, RS-422유선통신
+  * [RS-232] – [LoRA] 무선통신
+* **SW Maestro: 행동분석 기반 외국인 여행지 추천 및 가이드 어플리케이션 제작(2018.06 ~ 2018.11)**
+  * MVC, Swift4 기반 iOS Client 개발
+  * Alamofire library를 이용해 REST API 호출
+  * Python의 pandas를 이용해 Content Based filtering 추천엔진 개발
+* **(주)퀀텀게이트: 스쿨존용 IoT기반 차량과속경보 시스템 프로젝트(2016.06 ~ 2017.08)**
+  * C언어를 이용한 Embedded System 개발
+  * Radar와 Laser H/W 통신 프로토콜 설계 및 분석
+  * AWS S3에 차량 속도 저장
+* **Game: 원터치 게임 Deeper Deeper(2015.01 ~ 2015.08)**
+  * Unity3D( C# language)를 이용해 어항 UI 개발
+  * Total Game Manager를 만들어 Game 상태, 흐름 제어
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 프로젝트 상세 설명
+
+## Now u see me
+
+#### 1. 개발환경 및 역할
+
+  - 참여인원: 3명
+
+- 개발분야: REST API Server 개발, Deeplearning, opencv 그리고 Android모바일 어플리케이션 개발
+
+  - 제가 담당한 기술 스택
+
+  ![image-20190917003537303](README.assets/image-20190917003537303.png)
 
   
 
+#### 2. 프로젝트 개요
+
+Arcface Loss와 One shot metric learning을 이용한 얼굴인식, 지능형cctv를 이용한 침입자 알림 시스템입니다.
+
+집안 내부의 cctv를 통해 들어오는 사람을 인식하여 허가된 사람인지 구분 후 모바일 어플리케이션으로 notification을 전달합니다.
+
+**현재 학교 졸업작품 과목으로 진행된 프로젝트입니다.**
+
+https://www.youtube.com/watch?v=PKa12XJIs78&feature=youtu.be
+
+https://github.com/kiryun/now_u_see_me_mobile
+
+https://github.com/kiryun/now_u_see_me_server
+
+https://github.com/kiryun/now_u_see_me_cam
+
+#### 3. 프로젝트를 통해 얻은 점
+
+- Node.js / express 기반의 REST API Server 개발의 이해
+- Node.js와 Sequelize의 ORM을 통한 데이터베이스 핸들링
+- MOCHA를 통한 TDD 방법의 이해
+- MySQL Table 설계 기초
+
+  * FCM(Firebase Cloud Messaging)을 통한 notification
+* Android의 OkHttp를 통한 HTTP 통신의 이해
+  * Android에서 notification의 핸들링
+  * Python에서 HTTP 통신의 이해
+
+#### 4. 프로젝트에 기여한 점
+
+<center>[System Architecture]</center>
+![SystemArchitecture](README.assets/SystemArchitecture.png)
+
+* REST API Server 구축
+
+  * SW 구조
   
-
-  ### 프로젝트 및 담당분야
-
-  * **졸업작품: Deep Learning을 활용한 사용자 얼굴인식 및 침입자 알림 시스템 개발(2019.03 ~ )**
-    * Node.js를 이용한 REST API Server 구현(https://github.com/kiryun/now_u_see_me_server)
-    * Android 어플리케이션 개발(https://github.com/kiryun/now_u_see_me_mobile)
-    * RaspberryPi를 이용해 WEB CAM 개발(https://github.com/kiryun/now_u_see_me_cam)
-  * **MINTOS 64bit(2019.06 ~ )**
-    * NASM을 이용한 BootLoader 제작
-    * C언어를 이용해 Kernel 32bit, Kernel 64bit 제작
-    * https://github.com/kiryun/os
-  * **(주)퀀텀게이트: One M2M 기반 IoT 통합 센서 통신모듈 개발(2018.11 ~ 2019.02)**
-    * SAMD21G chip based 통신모듈개발외주
-    * RS-485, RS-422유선통신
-    * [RS-232] – [LoRA] 무선통신
-  * **SW Maestro: 행동분석 기반 외국인 여행지 추천 및 가이드 어플리케이션 제작(2018.06 ~ 2018.11)**
-    * MVC, Swift4 기반 iOS Client 개발
-    * Alamofire library를 이용해 REST API 호출
-    * Python의 pandas를 이용해 Content Based filtering 추천엔진 개발
-  * **(주)퀀텀게이트: 스쿨존용 IoT기반 차량과속경보 시스템 프로젝트(2016.06 ~ 2017.08)**
-    * C언어를 이용한 Embedded System 개발
-    * Radar와 Laser H/W 통신 프로토콜 설계 및 분석
-    * AWS S3에 차량 속도 저장
-  * **Game: 원터치 게임 Deeper Deeper(2015.01 ~ 2015.08)**
-    * Unity3D( C# language)를 이용해 어항 UI 개발
-    * Total Game Manager를 만들어 Game 상태, 흐름 제어
-
+    * app: 서버기능
+      * api: api 로직을 담당
+      * index.js: request를 처리하기 위해 미들웨어들을 모아둔 곳
+        * controller.js: 미들웨어에서 받은 내용을 처리해주는 곳
+      * config: 서버가 구동하기 위한 환경변수 정의(상수)
+        * models: 데이터베이스 모델링
+      * bin: 서버 구동을 위한 코드
+        * www.js: 서버구동
+        * sync-database: DB 싱크
+  * Sequelize를 이용한 ORM 사용
+  * multer를 이용한 local storage 접근
   
+* 환경의 분리
 
+  * 테스트때문에 서버가 실행되는 모드를 몇개 정의해야합니다. 테스트를 할 때 DB를 연결하게되면 DB 테스트에서 사용한 데이터들이 쌓이게 됩니다. 따라서 테스트용 데이터베이스가 따로 있어야 하는데 이것을 위해 서버 환경을 분리할 것입니다.
+
+  * 저희는 두가지 모드를 사용했습니다.
+
+    -development
+
+    -test
+
+    "development"는 개발모드입니다. 평소 개발할 때 쓰이는 환경입니다.
+
+    "test"는 test환경입니다. 코드가 제대로 돌아가고 있는지 mocha를 통해 TDD용으로 만들어뒀습니다.
+
+    이러한 환경정보는 /app/config/environment.js 에 구현했습니다.
+
+    ```javascript
+      const environment = {
+      development: {
+          mysql: {
+          username: 'root',
+            password: '',
+            database: 'now_u_see_me'
+          }
+        },
+        test: {
+          mysql: {
+            username: 'root',
+            password: '',
+            database: 'now_u_see_me_test'
+          }
+        },
+        production: {
+          mysql: {
+            username: 'root',
+            password: '',
+            database: 'NUSM'
+          }
+        }
+      }
+      
+      const nodeEnv = process.env.NODE_ENV || 'development';
+      module.exports = environment[nodeEnv];
+    ```
+
+     environments라는 변수를 두어 각 환경 이름에 해당하는 키를 만들었습니다. 그리고 nodeEnv라는 상수에 노드환경변수 값을 할당했습니다. 노드를 실행하기 전에 "Node_ENV = test"라고 실행하면 이값에 "test"라는 문자열이 들어갑니다. 만약 아무것도 설정하지 않았으면 "development"문자열이 들어가게 될 것입니다.
+
+* Mocha를 이용해 TDD구현
+
+  * describe()를 이용해 테스트 suite를 만들고, it()을 이용해 test를 실행하도록 했습니다.
+
+    test검증은 assert를 쓸 수도 있었지만 node.js 공식 홈페이지에서 다른 모듈을 사용하는 것을 권장하고 있기에 **should 모듈을 이용해 서술식 검증 코드를 만들었습니다.**
+
+    마지막으로 **supertest 모듈을 이용해 express 프레임 워크 위에서 api 테스트를 가능**하게 해줬습니다.
+
+* FCM을 이용해 notification 구현
+
+  * FCM 사용 이유
   
-
+    어플리케이션의 알림기능을 구현하기 위해선 현재 서버에서 클라이언트로 알림을 전달할 방법이 있어야 합니다.
   
-
+    그러나 본연의 서버의 기능을 수행하면서 또 하나의 복잡한 알림기능까지 포함하면 서버에 과부하가 걸린다고 판단되었습니다. Google에서 무료로 제공해주는 Firebase Cloud Messaging을 이용하기로 했습니다.
   
+* Server Flowchart
 
-  
+![ServerFlowChart](README.assets/ServerFlowChart.png)
 
-  
 
-  
 
-  
 
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  # 프로젝트 상세 설명
-
-  ## Story Tour
+## Story Tour
 
   #### 1. 개발환경 및 역할
 
@@ -180,26 +315,26 @@
   #### 4. 프로젝트에 기여한 점
 
   * MVC 및 Swift 4 기반 iOS 어플리케이션 개발
-
+  
     * MVC 패턴 적용 이유
-
+    
       프로젝트 특성상 서버에 보내야하는 요청의 종류가 많습니다.
       MVC패턴은 뷰와 컨트롤러는 모델에 의존하지만 모델은 화면표시나 컨트롤러와는 독립적입니다.
       즉, **모델에 대한 작업을 할때 어플리케이션 로직이나 화면상 표현에 영향을 주지않게 하기위해** 채택되었습니다.
-
+    
     * Alamofire 사용이유
-
+    
       이 프로젝트의 iOS파트는 swift코드가 대부분 입니다. Alamofire는 **AFNetworking의 Objective-C코드를 전혀 상속하지 않고 모두 Swift로 새롭게 만들었다**는 점에서 채택하게 되었습니다.
       또한 **response/request 호출, JSON parameter와 response serialization등의 기능을 제공**하고 있기 때문에 HTTP 프로토콜을 이용해 서버에 요청/응답을 하는 이 프로젝트에 꼭 필요한 library 입니다.
       마지막으로 Alamofire는 NSURLSession에 기분을 두고 있습니다. 하지만 NSURLSession으로 작성한 코드는 복잡한데 반해 **Alamofire를 사용하면 복잡한 코드를 작성할 필요가 없어집니다.**
-
+    
     * snapkit 사용 이유
-
+    
       만들기 쉬운 sotryboard를 사용할 수도 있었지만 storyboard의 단점은 코드 유지보수가 매우 어렵다고 판단하여서 snapkit library를 사용했습니다.
       snapkit은 **유지보수가 용이하고 segue를 사용하지않기 때문에 직관적으로 데이터를 전달할 수 있다는 장점**이 있습니다.
-
+    
       <center>[어플리케이션 스크린샷]</center>
-![image-20190916210747901](README.assets/image-20190916210747901.png)
+    ![image-20190916210747901](README.assets/image-20190916210747901.png)
   
 * Pandas를 이용한 데이터 전처리, 그리고 Content Based Filtering Algorithm 구현
   
@@ -226,7 +361,7 @@
   
 
   
-## #TagMusic(학교 프로젝트)
+## TagMusic(학교 프로젝트)
 
 #### 1. 개발환경 및 역할
 
@@ -346,137 +481,6 @@ Tag를 이용해 어플리케이션내에 있는 음악을 관리하는 음악 �
     음악재생 도중 재생목록가 update되는 것을 알기위해 Thread에서 ProgressUpdate를 해줬습니다.
 
     음악재생을 위한 UI가 MainActivity에 선언 돼있기 때문에 MainActivity의 각 버튼에 setOnclickListener를 달아두었습니다. 각 버튼을 누를 때 마다 setOnclickListener는 trigger가 되어 MediaPlayer의 pause, play, previous, next를 각각 호출하며 음악 재생 도중 일시정지, 재생, 이전 곡, 다음 곡을 구현했습니다.
-
-    
-
-  ## Now u see me
-
-  #### 1. 개발환경 및 역할
-
-  - 참여인원: 3명
-- 개발분야: REST API Server 개발, Deeplearning, opencv 그리고 Android모바일 어플리케이션 개발
-  - 제가 담당한 기술 스택
-
-  ![image-20190917003537303](README.assets/image-20190917003537303.png)
-  
-  
-
-  #### 2. 프로젝트 개요
-
-  Arcface Loss와 One shot metric learning을 이용한 얼굴인식, 지능형cctv를 이용한 침입자 알림 시스템입니다.
-
-  집안 내부의 cctv를 통해 들어오는 사람을 인식하여 허가된 사람인지 구분 후 모바일 어플리케이션으로 notification을 전달합니다.
-
-  **현재 학교 졸업작품 과목으로 진행된 프로젝트입니다.**
-
-  https://www.youtube.com/watch?v=PKa12XJIs78&feature=youtu.be
-
-  https://github.com/kiryun/now_u_see_me_mobile
-
-  https://github.com/kiryun/now_u_see_me_server
-
-  https://github.com/kiryun/now_u_see_me_cam
-
-  #### 3. 프로젝트를 통해 얻은 점
-
-  * Node.js / express 기반의 REST API Server 개발의 이해
-  * Node.js와 Sequelize의 ORM을 통한 데이터베이스 핸들링
-  * MOCHA를 통한 TDD 방법의 이해
-  * MySQL Table 설계 기초
-  * FCM(Firebase Cloud Messaging)을 통한 notification
-  * Android의 OkHttp를 통한 HTTP 통신의 이해
-  * Android에서 notification의 핸들링
-  * Python에서 HTTP 통신의 이해
-  
-  #### 4. 프로젝트에 기여한 점
-  
-  <center>[System Architecture]</center>
-  ![image-20190917011743472](README.assets/image-20190917011743472.png)
-  
-- REST API Server 구축
-
-  * SW 구조
-
-    * app: 서버기능
-        * api: api 로직을 담당
-        * index.js: request를 처리하기 위해 미들웨어들을 모아둔 곳
-          * controller.js: 미들웨어에서 받은 내용을 처리해주는 곳
-      * config: 서버가 구동하기 위한 환경변수 정의(상수)
-        * models: 데이터베이스 모델링
-      * bin: 서버 구동을 위한 코드
-        * www.js: 서버구동
-        * sync-database: DB 싱크
-
-    * 환경의 분리
-
-      * 테스트때문에 서버가 실행되는 모드를 몇개 정의해야합니다. 테스트를 할 때 DB를 연결하게되면 DB 테스트에서 사용한 데이터들이 쌓이게 됩니다. 따라서 테스트용 데이터베이스가 따로 있어야 하는데 이것을 위해 서버 환경을 분리할 것입니다.
-
-    * 저희는 세가지 모드를 사용했습니다.
-
-      -development
-
-      -test
-
-      -production
-
-      "development"는 개발모드입니다. 평소 개발할 때 쓰이는 환경입니다.
-
-      "test"는 test환경입니다. 코드가 제대로 돌아가고 있는지 mocha를 통해 TDD용으로 만들어뒀습니다.
-
-      "production"은 운영모드 입니다. 실제로 코드가 서버로 배포되어 동작하는 환경을 의미합니다.
-
-      이러한 환경정보는 /app/config/environment.js 에 구현했습니다.
-
-      ```javascript
-        const environment = {
-        development: {
-            mysql: {
-            username: 'root',
-              password: '',
-              database: 'now_u_see_me'
-            }
-          },
-          test: {
-            mysql: {
-              username: 'root',
-              password: '',
-              database: 'now_u_see_me_test'
-            }
-          },
-          production: {
-            mysql: {
-              username: 'root',
-              password: '',
-              database: 'NUSM'
-            }
-          }
-        }
-        
-        const nodeEnv = process.env.NODE_ENV || 'development';
-        module.exports = environment[nodeEnv];
-      ```
-
-        environments라는 변수를 두어 각 환경 이름에 해당하는 키를 만들었습니다. 그리고 nodeEnv라는 상수에 노드환경변수 값을 할당했습니다. 노드를 실행하기 전에 "Node_ENV = test"라고 실행하면 이값에 "test"라는 문자열이 들어갑니다. 만약 아무것도 설정하지 않았으면 "development"문자열이 들어가게 될 것입니다.
-
-    * Mocha를 이용해 TDD구현
-
-    describe()를 이용해 테스트 suite를 만들고, it()을 이용해 test를 실행하도록 했습니다.
-
-    test검증은 assert를 쓸 수도 있었지만 node.js 공식 홈페이지에서 다른 모듈을 사용하는 것을 권장하고 있기에 **should 모듈을 이용해 서술식 검증 코드를 만들었습니다.**
-
-    마지막으로 **supertest 모듈을 이용해 express 프레임 워크 위에서 api 테스트를 가능**하게 해줬습니다.
-
-  * Sequelize를 이용한 ORM 사용
-
-  * multer를 이용한 local storage 핸들링
-
-- FCM을 이용해 notification 구현
-
-  * FCM 사용 이유
-
-    어플리케이션의 알림기능을 구현하기 위해선 현재 서버에서 클라이언트로 알림을 전달할 방법이 있어야 합니다.
-
-    그러나 본연의 서버의 기능을 수행하면서 또 하나의 복잡한 알림기능까지 포함하면 서버에 과부하가 걸린다고 판단되었습니다. Google에서 무료로 제공해주는 Firebase Cloud Messaging을 이용하기로 했습니다.
 
     
 
