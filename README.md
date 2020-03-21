@@ -1,4 +1,4 @@
-# 호김심 많은 탐험가, 경험많은 신입
+# 호기심 많은 탐험가, 경험많은 신입
 
 <img src="README.assets/image-20191208031740167.png" alt="image-20191208031740167" style="zoom:33%;" /> 
 
@@ -8,7 +8,7 @@
 
 * :telephone_receiver:: 010-5046-9622
 
-* :email:: kimkihyun1205@gamil.com
+* :email:: dev.wimes@gamil.com
 
 * :notebook:: https://velog.io/@wimes
 
@@ -20,8 +20,8 @@
 
 중학교 3학년때 부터 프로그래밍을 시작해서 지금까지 여러 분야에 대한 경험을 해본 프로그래머 입니다.
 게임, IoT, iOS/Android, REST API Server분야의 프로젝트를 맡아서 한 경험이 있습니다.
-다양한 프로젝트를 해본덕분에 다른 분야에서 응용해서 사용할 수 있었습니다.
-새로운 기술을 배우는 것에 호기심과 열정을 가지고 있고 배우는데 있어서 겁먹지 않고 유연하게 배울 수 있는 자세가 준비되어있습니다.
+다양한 프로젝트를 해본 덕분에 다른 분야에서 응용해서 사용할 수 있었습니다.
+새로운 기술을 배우는 것에 호기심과 열정을 가지고 있고 배우는데 있어서 겁먹지 않고 유연하게 배울 수 있는 자세가 준비되어 있습니다.
 
 
 
@@ -29,13 +29,15 @@
 
 * iOS
 
-  Swift4
+  Swift
+
+  SwiftUI
 
 * Android
 
   Java
 
-* REST API Server
+* BackEnd
 
   Node.js
 
@@ -57,19 +59,31 @@
 
 * ETC.
 
-  Slack, Redmine
+  Slack, Redmine, Markdown, G Suite
 
   
 
 ### 경력
 
+* **(주)네오위즈(2020.01 ~ )**
+  * iOS SDK Developer
+    * Swift를 이용한 iOS SDK Sample app 개발
+      * MVVM 패턴 적용
+      * SwiftUI
+      * Swift5
+    * Objective-C로 작성되어있는 SDK를 Swift로 개발 및 모듈화
+      * Swift5 Concurrency
+      * URLSession
+      * Closure 패턴
+      * Delegate 패턴
+      * Promise 패턴
+* **(주)퀀텀게이트(2018.11 ~ 2019.02)**
+  * Embedded System Engineer
+    * One M2M 기반 IoT 통합 센서 통신모듈 개발
 * **(주)퀀텀게이트(2016.06 ~ 2017.08)**
   * Embedded System Engineer
     * 스쿨존용 IoT기반 차량과속경보 시스템 프로젝트, HW 부품 연결을 위한 메인 Linux SW개발과 Radar 프로토콜을 분석했습니다.
     * 결과: 지역특화산업육성(R&D) 기술 개발 사업 통과
-* **(주)퀀텀게이트(2018.11 ~ 2019.02)**
-  * Embedded System Engineer
-    * One M2M 기반 IoT 통합 센서 통신모듈 개발
 
 
 
@@ -83,7 +97,7 @@
 
 * **고급프로그래밍언어 수업 실습조교(2018.03 ~ 2018.07)**
 
-  Java 프로그래밍 언어를 배울 수 있는 고급프로그래밍언어과목의 실습조교를 했습니다.
+  Java 프로그래밍 언어를 배울 수 있는 고급프로그래밍언어 과목의 실습조교를 했습니다.
 
 * **교내 Peer to Tutoring 프로그램을 통한 Java Study 멘토(2018.03 ~ 2018.07)**
 
@@ -105,7 +119,7 @@
 
 * **졸업작품: Deep Learning을 활용한 사용자 얼굴인식 및 침입자 알림 시스템 개발(2019.03 ~ )**
   * Node.js를 이용한 REST API Server 구현(https://github.com/kiryun/now_u_see_me_server)
-  * Android 어플리케이션 개발(https://github.com/kiryun/now_u_see_me_mobile)
+  *  Android 어플리케이션 개발(https://github.com/kiryun/now_u_see_me_mobile)
   * RaspberryPi를 이용해 WEB CAM 개발(https://github.com/kiryun/now_u_see_me_cam)
 * **MINTOS 64bit(2019.06 ~ )**
   * NASM을 이용한 BootLoader 제작
@@ -131,31 +145,70 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # 프로젝트 상세 설명
+
+## SDK Sample App
+
+#### 1. 개발환경 및 역할
+
+* 참여인원: 1명
+* 개발분야: iOS App 개발
+  
+  * 제가 담당한 기술 스택
+  
+    ![techStack](README.assets/techStack.png)
+
+#### 2. 프로젝트 개요
+
+<center>Neowiz Corp. 인턴 과정에서 진행한 프로젝트 입니다.</center>
+
+  <center>**회사 보안상의 이유로 자세한 내용은 생략되어 있습니다.**</center>
+
+기존의 Objective-C 로 작성되어있던 SDK Sample App을 개선/보안 하여 SwiftUI로 새로운 SampleApp을 만들었습니다.
+MVVM 패턴을 적용하였으며, 유지보수와 가독성 면에서 눈에 띄게 개선되었습니다.
+
+#### 3. 프로젝트를 통해 얻은 점
+
+* SwiftUI - Combine 을 활용한 MVVM 패턴 적용
+  * MVVM 패턴과 활용 방법
+  * SwiftUI의 사용방법
+* SDK에 쓰이는 패턴 공부
+  * Delegate 패턴을 이용한 Callback method 구현
+  * Dispatch를 이용한 효율적인 thread 관리
+* Apple purchase
+* 함수형 패러다임을 이용해 탈출 Closure 사용
+* LocalPush 전송
+* [SwiftUI의 Alert with TextField 개발](https://github.com/kiryun/AlertWithTextField)
+
+<img src="README.assets/image-20200321170037388.png" alt="image-20200321170037388" style="zoom:33%;" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Now u see me
 
@@ -163,7 +216,7 @@
 
   - 참여인원: 3명
 
-- 개발분야: REST API Server 개발, Deeplearning, opencv 그리고 Android모바일 어플리케이션 개발
+- 개발분야: REST API Server 개발, Deeplearning, opencv 그리고 Android App 개발
 
   - 제가 담당한 기술 스택
 
@@ -290,6 +343,7 @@ https://github.com/kiryun/now_u_see_me_cam
 
 
 
+
 ## Story Tour
 
   #### 1. 개발환경 및 역할
@@ -361,7 +415,7 @@ https://github.com/kiryun/now_u_see_me_cam
   
 
   
-## TagMusic(학교 프로젝트)
+## #TagMusic
 
 #### 1. 개발환경 및 역할
 
